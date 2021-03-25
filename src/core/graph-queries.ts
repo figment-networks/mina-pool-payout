@@ -44,6 +44,7 @@ export async function sendSignedPayment(payment: signed<payment>) {
       ) {
         payment {
           amount
+          id
           fee
           kind
           memo
